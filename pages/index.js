@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default function Home() {
 
   return (
-    <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-1">
       <Head>
         <title>Bulls versus Bears</title>
         <link rel="icon" href="/images/logo.png" />
@@ -47,16 +47,17 @@ export default function Home() {
           <div className="mt-6 border-b-2 py-6">
             <div className="flex flex-wrap lg:flex-nowrap justify-around items-center">
                   <div className="lg:w-1/2 w-3/4">
-                    <h1 className="text-7xl Poppitandfinchsans text-white ">WELCOME, get familiar with <br/><span className="text-blau">Our contestants</span></h1>
+                    <h1 className="text-6xl Poppitandfinchsans text-white text-center">WELCOME, get familiar with <br/><span className="text-blau">Our contestants</span></h1>
                     <p className="text-2xl text-white my-6  montserrat">For this BATTLE <span className="text-5xl Poppitandfinch ">we have two teams </span> <span className="text-blau text-5xl Poppitandfinchsans">Team bulls vs Team bears,</span> <span className="text-5xl Poppitandfinch">which one deserves the medal </span><span className="text-span-2 font-bold">for the month?</span>.<br />‍<br />Support your favorite team <br/>‍<span className="text-blau text-5xl Poppitandfinchsans">Cheer them on </span><span className="text-5xl Poppitandfinch ">and</span><span className="text-blau text-5xl Poppitandfinchsans"> do not </span> <br/>give up.
                     </p>
                     <p className="text-2xl text-white my-6  montserrat">
-                    <strong>LAUNCH DATE:</strong> 11 August 2021. 2pm EST. <br />‍
+                    <strong>LAUNCH DATE:</strong> 12 August 2021. 2pm EST. <br />‍
                     <span className="text-white text-2xl montserrat"><strong>TOTAL SUPPLY: 5555</strong> BVB.<br/><strong>PRICE: 0.02 ETH </strong>each.</span></p>
-                    <iframe src="https://free.timeanddate.com/countdown/i7xav4n6/n192/cf11/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fs100/szw320/szh135/iso2021-08-11T14:00:00" allowtransparency="true" frameborder="0" width="425" height="25"></iframe>
+                  <iframe src="https://free.timeanddate.com/countdown/i7xcn5n1/n179/cf12/cm0/cu4/ct0/cs0/ca0/co0/cr0/ss0/cac000/cpc000/pct/tcfff/fs100/szw320/szh135/iso2021-08-12T14:00:00" allowtransparency="true" frameborder="0" width="150" height="31"></iframe>
+
 
                   </div>
-                  <img className="lg:w-1/2 w-3/4" src="images/logo.png" width="400px" />
+                  <img className="lg:w-1/2 w-3/4" src="images/logo.png" width="300px" />
             </div>
             <div className="flex flex-col items-center">
 
@@ -71,7 +72,7 @@ export default function Home() {
     
 
                 <div id="snippet" className="flex flex-wrap justify-around items-center  mx-6 py-6">
-                  <div className="border-4 border-blue-300 p-4"><img src="images/gif.gif" alt="" width="250px" className="feature-image"/></div>
+                  <div className="border-4 border-blue-300 p-4"><img src="images/gif.gif" alt="" width="300px" className="feature-image"/></div>
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
                     <h2 className="text-blau Poppitandfinchsans text-6xl text-center">READ ME</h2>
                     <p className="text-xl text-white my-6  montserrat"> Most people have experienced their share of the bull and bear season in cryptocurrency, <span className="font-bold"> most times we do not have a say in this and our little effort yields little or no change.</span> NOT ANYMORE! <span className="font-bold"> YOU now have a SAY, </span> Decide if we are going to experience a bull or bear month. <span className="font-bold"> HOW? </span> On the secondary market(i.e. OPENSEA) KEEP the FLOOR PRICE higher than the launch price(0.02ETH) monthly, then every hodler of BVB gets to share 80% of the royalties for the month. <span className="font-bold"> If the FLOOR PRICE is lower than launch price, </span> unfortunately hodlers will get just 20% of total royalties for the month.   
@@ -85,7 +86,7 @@ export default function Home() {
                 </div>
                 
                 <div id="gallery" className="   mx-6 py-6">
-                    <h2 className="text-blau Poppitandfinchsans text-7xl text-center">MEET SOME OF US: you get BEARS or BULLS for the month depending on the floor price</h2>
+                    <h2 className="text-blau Poppitandfinchsans text-7xl text-center">MEET SOME OF US:<span className="text-5xl Poppitandfinch "> you get BEARS or BULLS for the month depending on the floor price</span> </h2>
                   <div className="flex flex-wrap  items-center mx-6   py-6 ">
                     <div className="md:w-1/2">
                       <div className=" border-blue-300 p-2"><img src="images/logo.png" alt="" width="600px" className="feature-image"/></div>
@@ -104,11 +105,11 @@ export default function Home() {
               <div id="roadmap" className="">
                 
               <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROADMAP</h2>
-              <img src="/images/Roadmap.png"/>
+              <img src="/images/roadmap.png"/>
               <ul className="">
                 <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> 50% SALES: </span> Our Token will be created <a target="_blank" href="https://girlswhocode.com/" className="underline text-black font-bold"></a>, this will be used in the governance of our NFT. <span className="font-bold"> Other plans? </span> This would be decided by the community because we would like you to be involved in decision making. </li>
                 <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> 100% SALES: </span>We will distribute 50% of the token to hodlers</li>
-                <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> Secondary sales: 5% royalty on each sales </span> This will be shared among hodlers based on the outcome of the monthly battle </li>
+                <li className="text-xl text-white my-6  montserrat"><span className="font-bold"> SECONDARY SALES: 5% royalty on each sales </span> This will be shared among hodlers based on the outcome of the monthly battle </li>
 
               </ul>
           
@@ -119,30 +120,30 @@ export default function Home() {
               </div>
               
               <div id="club" className="mx-12 my-16 ">
-                <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">ROYALTIES CLUB</h2>
-                <div className="flex justify-around flex-wrap">
+                <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">ROYALTIES CLUB</h2>
+                
                 <p className="text-xl text-white my-6  montserrat"> You need at least one of bullsVSbears NFT to become a member. You get rewarded with your share of the monthly royalties and a certain percentage of our governance token
               </p>
   
                   
-                </div>
+                
                 </div>
 
                 <div id="club" className="mx-12 my-16 ">
-                <h2 className="text-7xl text-center Poppitandfinchsans text-blau my-4">PROPOSAL CLUB</h2>
-                <div className="flex justify-around flex-wrap">
+                <h2 className="text-6xl text-center Poppitandfinchsans text-blau my-4">PROPOSAL CLUB</h2>
+               
                 <p className="text-xl text-white my-6  montserrat"> You need at least 20 of bullsVSbears NFT to become a member, You can propose new features or decision. Receive a badge when your proposal gets accepted by the community.
               </p>
   
                   
-                </div>
+                
                 </div>
        
 
 
               
               <div id="contact" className="flex flex-wrap justify-around items-center  mx-6 py-6">
-                  <div className=" p-4"><img src="images/letstalk.png" alt="" width="400px" className="feature-image"/></div>
+                
                   <div className="flex flex-col justify-between mx-6 sm:w-1/2 w-4/5 py-6 ">
                     <h2 className="text-blau Poppitandfinchsans text-6xl text-center">CONTACT US</h2>
                     <p className="text-xl text-white my-6  montserrat"> We'd love to hear from you! 
@@ -153,10 +154,11 @@ export default function Home() {
                     </p>
                   </div>
        
+       
 
 
               </div>   
-          </div>  
+          </div>
     </div>  
     )
   }
